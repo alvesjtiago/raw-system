@@ -10,17 +10,23 @@
 npm install --save raw-system
 ```
 
+or
+
+```bash
+yarn add raw-system
+```
+
 ## Usage
 
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'raw-system'
+import { Button } from 'raw-system'
 import 'raw-system/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button>Raw button</Button>
   }
 }
 ```
