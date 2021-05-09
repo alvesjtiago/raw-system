@@ -1,4 +1,5 @@
 import './index.css'
+import 'raw-system/dist/index.css'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
