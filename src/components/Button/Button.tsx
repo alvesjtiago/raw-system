@@ -1,6 +1,8 @@
 import styled from 'styled-components'
+import theme from '../../theme'
 
 export const Button = styled.button`
+  background-color: ${theme.gray};
   border: 1px solid #000;
   box-shadow: 2px 2px #000;
   padding: 10px;
