@@ -31,6 +31,18 @@ class Example extends Component {
 }
 ```
 
+## Publish
+
+To publish the package run:
+```
+npm publish
+```
+
+To deploy the Github app:
+```
+npm run deploy
+```
+
 ## License
 
 MIT © [alvesjtiago](https://github.com/alvesjtiago)
